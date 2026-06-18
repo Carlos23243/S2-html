@@ -4,27 +4,215 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi proyecto semana 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="arcetc.png" alt="Logo" width="70" height="50"></a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto"> <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#quienes-somos">Quiénes Somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#servicios">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
   <figure>
-  <img src="arcetec.jpg"width="100" height="100">
-  <figcaption>Arce Tech & Design</figcaption>
+  <img src="imj1.png" alt="Imagen 1" width="1300" height="900">
+  
+
+  <!--inicio-->
+   <section id="inicio" class="hero text-center text-white p-5">
+
+            <div class="container">
+
+                <h1>Arce Tech & Design</h1>
+
+                <p class="lead">
+                    Transformación digital e identidad visual para tu negocio.
+                </p>
+
+                <a href="#contacto" class="btn btn-warning btn-lg">
+                    Solicitar Cotización
+                </a>
+
+            </div>
+
+        </section>
+
 </figure>
 <body>
     <header>
+
+         <!-- QUIENES SOMOS -->
+        
+         <section id="quienes" class="container my-5">
+
+            <div class="row align-items-center">
+
+                <article class="col-md-6">
+
+                    <h2 class= "text-center mb-4" > 
+                        Quiénes Somos
+                    </h2>
+
+                    <p>
+                        Somos un estudio híbrido que fusiona la ingeniería de software
+                        con el diseño gráfico estratégico.
+                        En Arce Tech & Design, nacimos con el firme propósito de romper la brecha entre la funcionalidad técnica y la estética visual. Sabemos que hoy en día no basta con tener una página web que funcione; esta también debe ser atractiva, intuitiva y reflejar la esencia de la marca. Como especialistas en Tecnologías de la Información y diseño, nos dedicamos a construir soluciones integrales. Nos encargamos de todo el proceso: desde el levantamiento de requerimientos, la arquitectura de la información y el desarrollo de código limpio, hasta el diseño del logotipo, la paleta de colores y la interfaz de usuario (UI/UX). Trabajamos de la mano con emprendedores y empresas para garantizar que su transición hacia la digitalización sea exitosa, segura, profesional y competitiva en el mercado actual.
+                    </p>
+
+                </article>
+
+                <aside class="col-md-6">
+
+                    <img src="https://www.unir.net/wp-content/uploads/2022/03/disenador_grafico_header-e1675436396206.jpg"
+                        alt="Diseñador"
+                        class="img-fluid rounded shadow">
+
+                </aside>
+
+            </div>
+
+        </section>
        
-        <h1 style="text-align: center;">Arce Tech & Design</h1>
+        
     </header>
 
-    <h2>Transformación digital e identidad visual para tu negocio.</h2>
-    <h3>Este negocio se dedica a ayudar a pequeñas y medianas empresas (Pymes), profesionales independientes y emprendedores locales a dar el salto al mundo digital, ofreciéndoles tanto el desarrollo técnico de sus plataformas como la creación de su marca.</h3>
 
-    <h2>Bienvenido a Arce Tech & Design</h2>
-    <p>Somos un estudio híbrido que fusiona la ingeniería de software con el diseño gráfico estratégico. Creamos plataformas web a medida, optimizadas y seguras, acompañadas de una identidad visual única que hace destacar a nuestros clientes en el entorno digital.</p>
+     <!-- SERVICIOS -->
+        <section id="servicios" class="container my-5">
 
-    <h2>Quiénes Somos</h2>
-    <p>En Arce Tech & Design, nacimos con el firme propósito de romper la brecha entre la funcionalidad técnica y la estética visual. Sabemos que hoy en día no basta con tener una página web que funcione; esta también debe ser atractiva, intuitiva y reflejar la esencia de la marca. Como especialistas en Tecnologías de la Información y diseño, nos dedicamos a construir soluciones integrales. Nos encargamos de todo el proceso: desde el levantamiento de requerimientos, la arquitectura de la información y el desarrollo de código limpio, hasta el diseño del logotipo, la paleta de colores y la interfaz de usuario (UI/UX). Trabajamos de la mano con emprendedores y empresas para garantizar que su transición hacia la digitalización sea exitosa, segura, profesional y competitiva en el mercado actual.</p>
+            <h2 class="text-center mb-4">
+                Nuestros Servicios
+            </h2>
 
-    <img src="https://www.unir.net/wp-content/uploads/2022/03/disenador_grafico_header-e1675436396206.jpg" alt="Diseñador gráfico" width="600" height="400">
+            <div class="row">
+
+                <div class="col-md-4">
+
+                    <div class="card shadow m-3">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Desarrollo Web
+                            </h5>
+
+                            <p class="card-text">
+                                Sitios web corporativos y landing pages.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="card shadow m-3">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Branding
+                            </h5>
+
+                            <p class="card-text">
+                                Diseño de logotipos e identidad corporativa.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="card shadow m-3">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Mantenimiento
+                            </h5>
+
+                            <p class="card-text">
+                                Optimización y seguridad web.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    <h2 class="text-center mb-4" >
+
+    Transformación digital e identidad visual para tu negocio.
+    </h2>
+    
+    <p>Realizamos proyectos para pequeñas y medianas empresas (Pymes), profesionales independientes y emprendedores locales a dar el salto al mundo digital, ofreciéndoles tanto el desarrollo técnico de sus plataformas como la creación de su marca.</p>
+
+    
+    
+
+    <!--video---->
+
+    <section id="quienes" class="container my-5">
+
+            <div class="row align-items-center">
+
+                <article class="col-md-6">
+
+                    <h2 class= "text-center mb-4" > 
+                        Bienvenido a Arce Tech & Design
+                    </h2>
+
+                    <!--p>
+                       Somos un estudio híbrido que fusiona la ingeniería de software con el diseño gráfico estratégico. Creamos plataformas web a medida, optimizadas y seguras, acompañadas de una identidad visual única que hace destacar a nuestros clientes en el entorno digital.
+                    </p-->
+
+                </article>
+
+                <aside class="col-md-6">
+
+                    </video><iframe width="560" height="315" src="https://www.youtube.com/embed/fK6wxYxslgU?si=zNxblW4IOPKntjCm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </aside>
+
+            </div>
+
+        </section>
+       
+    
+
+    
+
+      
+
 
     <h2> Servicios</h2>
 
@@ -33,10 +221,63 @@
         <li><strong>Branding e Identidad Corporativa:</strong> Diseño de logotipos, manuales de marca, selección de paletas de colores tipográficas y creación de recursos visuales listos para medios digitales e impresos.</li>
         <li><strong>Optimización y Mantenimiento:</strong> Diagnóstico de sitios web existentes, mejora de la velocidad de carga, actualización de seguridad y diseño de interfaces más amigables para el usuario.</li>
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/fK6wxYxslgU?si=zNxblW4IOPKntjCm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
     <h2> Promoción de Apertura:</h2>
     <p>¡Lanza tu negocio al mundo digital! Obtén un 15% de descuento en nuestro paquete "Llave en Mano", que incluye el diseño de tu logotipo profesional y el desarrollo de tu primera página web de aterrizaje.
-Horario de atención técnica: Lunes a Viernes de 08:00 a 17:00.</p>   
+Horario de atención técnica: Lunes a Viernes de 08:00 a 17:00.</p>
+
+
+ <!-- CONTACTO -->
+        <section id="contacto" class="container my-5">
+
+            <h2 class="text-center">
+                Contacto
+            </h2>
+
+            <form>
+
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Nombre">
+                </div>
+
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Correo electrónico">
+                </div>
+
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Asunto">
+                </div>
+
+                <div class="mb-3">
+                    <textarea class="form-control" rows="5" placeholder="Mensaje"></textarea>
+                </div>
+
+                <button class="btn btn-primary">
+                    Enviar Mensaje
+                </button>
+
+            </form>
+
+            <div class="mt-4">
+
+                <a href="mailto:info@arcetech.com" class="btn btn-danger">
+                    Correo
+                </a>
+
+                <a href="#" class="btn btn-primary">
+                    Facebook
+                </a>
+
+                <a href="#" class="btn btn-success">
+                    Ubicación
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
         <footer>
     <p>&copy; 2026 Mi Sitio Web. Todos los derechos reservados.</p>
     <nav>

@@ -1,0 +1,65 @@
+
+h2{
+    color: #f8f9fc;
+    font-size: 20px;
+    text-align: start;
+    margin-top: 20px;
+    background-color: #FF6600;
+    padding: 10px; 
+}
+
+p.lead{ 
+    color: #061f6c;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a.btn{
+    color: #f8f5f4;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #FF6600;
+    padding: 10px 20px;
+}
+
+
+
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+.hero{
+    background: linear-gradient(135deg,#0d6efd,#212529);
+}
+
+.card{
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+img{
+    border-radius: 10px;
+}
+
+footer{
+    margin-top: 30px;
+}
+
+/* Media Query */
+@media(max-width:768px){
+
+    .hero h1{
+        font-size: 2rem;
+    }
+
+    .navbar-brand img{
+        width:50px;
+    }
+
+}
