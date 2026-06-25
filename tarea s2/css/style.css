@@ -15,7 +15,7 @@ p.lead{
     margin-top: 20px;
 }
 
-a.btn{
+button{
     color: #f8f5f4;
     font-size: 16px;
     text-align: center;
@@ -24,7 +24,9 @@ a.btn{
     padding: 10px 20px;
 }
 
-
+.navbar {
+    background-color: #FF6600 !important;
+}
 
 
 body{
@@ -51,7 +53,7 @@ footer{
     margin-top: 30px;
 }
 
-/* Media Query */
+
 @media(max-width:768px){
 
     .hero h1{
