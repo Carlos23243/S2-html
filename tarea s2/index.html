@@ -215,49 +215,65 @@
 Horario de atención técnica: Lunes a Viernes de 08:00 a 17:00.</p>
 
 
+
  <!-- CONTACTO -->
+
         <section id="contacto" class="container my-5">
 
             <h2 class="text-center">
                 Contacto
             </h2>
 
-            <form>
-
+            <form id="formcontacto">
+<!----
                 <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Nombre">
+                    <input type="text" id="nombre" class="form-control" placeholder="Nombre">
                 </div>
 
                 <div class="mb-3">
-                    <input type="email" class="form-control" placeholder="Correo electrónico">
+                    <input type="email" id="correo" class="form-control" placeholder="Correo electrónico">
                 </div>
 
                 <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Asunto">
+                    <input type="text" id="asunto" class="form-control" placeholder="Asunto">
                 </div>
                 
-                
+            --->
+            <div class="mb-3">
+                <input type="text" id="nombre" class="form-control" placeholder="Nombre">
+                <div id="errorNombre" class="text-danger"></div>
+            </div>
+
+            <div class="mb-3">
+                <input type="email" id="correo" class="form-control" placeholder="Correo electrónico">
+                <div id="errorCorreo" class="text-danger"></div>
+            </div>
+
+            <div class="mb-3">
+                <textarea id="mensaje" class="form-control" rows="5" placeholder="Mensaje"></textarea>
+                <div id="errorMensaje" class="text-danger"></div>
+            </div>
+ 
 
                    <select id="categoria">
                     <option value="opcion1">Opción 1</option>
                     <option value="opcion2">Opción 2</option>
-                    <option value="opcion3">Opción 3</option></select>
-
+                    <option value="opcion3">Opción 3</option></select><br> 
+<!----
                 <div class="mb-3">
-                    <textarea class="form-control" rows="5" placeholder="Mensaje"></textarea>
+                    <textarea id="mensaje" class="form-control" rows="5" placeholder="Mensaje"></textarea>
                 </div>
             
                 <div id="Mensaje"></div>
-                
+
+             --->   
                
                 <button onclick="DatosGuardados()">
                     Enviar Mensaje
                 </button><br>
-                
-                
-
             
-
+              
+            
 
 
                 
